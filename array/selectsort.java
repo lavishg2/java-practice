@@ -5,7 +5,7 @@ public class selectsort {
         System.out.println("Before sorting");
         for(int i=0; i<n; i++){
             System.out.println(arr[i]);
-        }
+        } 
         for(int i=0; i<n; i++){
             int smallest=i;
             for(int j=i+1; j<n; j++){
